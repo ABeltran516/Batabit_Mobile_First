@@ -1,0 +1,110 @@
+/* 
+Por buenas prácticas este es el orden sugerido para crear los estilos en CSS.
+    1. Posicionamiento
+    2. Modelo de caja (box model)
+    3. Tipografía
+    4. Visuales (Shadow-box, border-radius)
+    5. Otros 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+:root {
+    /* Colores */
+    --bitcoin_orange: #F7931A;
+    --soft_orange: #FFE9D5;
+    --secondary_blue: #1A9AF7;
+    --soft_blue: #E7F5FF;
+    --warm_black: #201E1C;
+    --black: #282623 ;
+    --grey: #BABABA ;
+    --off_white: #FAF8F7 ;
+    --just_white: #FFF;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%; 
+    min-width: 32.4rem;
+    height: 33.4rem;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+header img{
+    width: 15rem;
+    height: 2.4rem;
+    align-self: center;
+}
+
+header .Header--title-container {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+    align-self: center ;
+}
+
+ header .Header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just_white);
+}
+
+ header .Header--title-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin: 2rem auto;
+    color: var(--soft_orange);
+}
+
+header .Header--title-container .Header--button {
+    /*Posicionamiento*/
+    position: absolute;
+    top: 310px;
+    left: calc(50% - 115px);
+    display: block;
+    /* Box Model */
+    width: 22.9rem;
+    height: 4.8rem;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    /*Tipografía*/
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--warm_black);
+    text-decoration: none;
+    /*Visuales*/
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    /*Otros*/
+    background-color: var(--off_white);
+}
+
+header .Header--title-container .Header--button span {
+    display: inline-block;
+    width: 1.3rem;
+    height: .8rem;
+    margin-left: 1rem;
+    background-image: url("./Assets/arrow_down.svg");
+    background-color: var(--off_white);
+}
+
