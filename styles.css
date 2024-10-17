@@ -291,6 +291,7 @@ main .Main-exchange--container {
     min-width: 32rem;
     max-width: 90rem;
     margin: 0 auto;
+    padding: 20px 0;
     background-color: var(--warm_black);
 }
 
@@ -347,4 +348,22 @@ main .Main-exchange--container {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+/* Girl image section */
+
+.Bitcoinbaby {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 90rem;
+    min-width: 32rem;
+}
+
+.Bitcoinbaby img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
