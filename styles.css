@@ -225,7 +225,6 @@ main .Main-exchange--container {
     height: 1.5rem;
     margin-left: 1rem;
     background-image: url("./Assets/trending-down.svg");
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -281,4 +280,40 @@ main .Main-exchange--container {
     font-weight: 300;
     line-height: 1.5rem;
     color: var(--warm_black);
+}
+
+/* Feature section */ 
+
+.Main-feature-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 32rem;
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: var(--warm_black);
+}
+
+.Main-feature-section .Main-feature__title {
+    display: inline-block;
+    width: 90%;
+    height: 5.5rem;
+    margin: 50px auto 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just_white);
+}
+
+.Main-feature-section .Second-feature__info {
+    display: inline-block;
+    width: 90%;
+    height: 5rem;
+    margin: 20px auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #808080;
 }
