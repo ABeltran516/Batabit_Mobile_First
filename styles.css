@@ -390,3 +390,137 @@ main .Main-exchange--container {
     background-position: center;
 }
 
+/* Benefits Section */
+
+.Benefits-section {
+    height: auto;
+    min-width: 32rem;
+    max-width: 90rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.Benefits-section h2 {
+    width: 90%;
+    height: 5rem;
+    margin: 2.5rem auto;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm_black);
+}
+
+.Benefits-section h3 {
+    width: 90%;
+    height: 3.6rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.Benefits-section .Benefits-section__plan {
+    position: relative;
+    width: 19rem;
+    max-height: 35rem;
+    max-width: 25rem;
+    margin: 5rem auto; 
+    padding: 4rem 1rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--just_white);
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__recommended {
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 50px);
+    width: 10rem;
+    height: 3rem;
+    max-width: 15rem;
+    max-height: 5rem;
+    padding: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--just_white);
+    background-color: var(--bitcoin_orange);
+    border-radius: 8px;
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__anual-cost {
+    width: 7.3rem;
+    height: 1.8rem;
+    margin: 0 auto 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__price {
+    width: 8rem;
+    height: 6rem;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 6.3rem;
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__price span {
+    position: absolute;
+    top: 82px;
+    left: 52px;
+    width: .8rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #363636;
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__promo {
+    width: 15.8rem;
+    height: 3rem;
+    margin: 2rem auto 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #757575;
+}
+
+.Benefits-section .Benefits-section__plan .Benefits-section__pick-this {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 12px 16px;
+    background-color: var(--off_white);
+    border: 2px solid var(--bitcoin_orange);
+    border-radius: 4px;
+}
+
+.Benefits-section__pick-this p {
+    width: 10rem;
+    height: 2rem;
+    margin-right: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--warm_black);
+}
+
+.Benefits-section__pick-this img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+/* Footer Section */
+
