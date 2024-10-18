@@ -396,6 +396,7 @@ main .Main-exchange--container {
     height: auto;
     min-width: 32rem;
     max-width: 90rem;
+    margin: 0 auto;
     padding-bottom: 2.5rem;
     text-align: center;
 }
@@ -524,3 +525,29 @@ main .Main-exchange--container {
 
 /* Footer Section */
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+    margin: 0 auto;
+    align-items: center;
+    min-width: 32rem;
+    max-width: 90rem;
+    background-color: var(--bitcoin_orange);
+}
+
+footer article p{
+    width: 5.6rem;
+    height: 1.8rem;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--just_white);
+}
+
+footer img {
+    width: 6rem;
+    height: 5rem;
+}
