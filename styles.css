@@ -334,6 +334,7 @@ main .Main-exchange--container {
     margin: 10px auto;
     border-radius: 15px;
     background-color: var(--black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .Main-feature__container img {
