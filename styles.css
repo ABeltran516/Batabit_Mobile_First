@@ -16,6 +16,7 @@ Por buenas prácticas este es el orden sugerido para crear los estilos en CSS.
 html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -40,7 +41,7 @@ header {
     align-content: center;
     text-align: center;
     width: 100%; 
-    min-width: 32.4rem;
+    min-width: 32.5rem;
     height: 33.4rem;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
@@ -289,7 +290,7 @@ main .Main-exchange--container {
     display: flex;
     flex-direction: column;
     height: auto;
-    min-width: 32rem;
+    min-width: 32.5rem;
     max-width: 90rem;
     margin: 0 auto;
     padding: 20px 0;
@@ -370,7 +371,7 @@ main .Main-exchange--container {
     height: auto;
     margin: 0 auto;
     max-width: 90rem;
-    min-width: 32rem;
+    min-width: 32.5rem;
 }
 
 .Bitcoinbaby h2 {
@@ -394,11 +395,12 @@ main .Main-exchange--container {
 
 .Benefits-section {
     height: auto;
-    min-width: 32rem;
+    min-width: 32.5rem;
     max-width: 90rem;
     margin: 0 auto;
     padding-bottom: 2.5rem;
     text-align: center;
+    background-color: var(--off_white);
 }
 
 .Benefits-section h2 {
@@ -531,7 +533,7 @@ footer {
     height: 15rem;
     margin: 0 auto;
     align-items: center;
-    min-width: 32rem;
+    min-width: 32.5rem;
     max-width: 90rem;
     background-color: var(--bitcoin_orange);
 }
