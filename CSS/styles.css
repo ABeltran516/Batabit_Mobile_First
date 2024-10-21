@@ -135,7 +135,7 @@ main .Main-exchange--container {
     height: 20rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    background-image: url("./Assets/Bitcoin.svg");
+    background-image: url("/Assets/Bitcoin.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

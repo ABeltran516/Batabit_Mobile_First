@@ -1,0 +1,22 @@
+.Main-table--container {
+    display: flex;
+    width: 93rem;
+    margin: 0 auto 3rem;
+}
+
+.Main-feature-section {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.Main-feature-section .Main-feature__container {
+    max-width: 30rem;
+    margin: 2rem;
+}
+
+.Benefits-section__cards-container {
+    justify-content: center;
+}
